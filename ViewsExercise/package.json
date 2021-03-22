@@ -1,0 +1,49 @@
+{
+  "name": "views-exercise",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-native": "^0.63.51",
+    "@types/react-native-vector-icons": "^6.4.6",
+    "react-native-typescript-transformer": "^1.2.13",
+    "typescript": "^4.2.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/"
+    ],
+    "cacheDirectory": ".jest/cache"
+  },
+  "dependencies": {
+    "@ant-design/icons-react-native": "^2.2.1",
+    "@react-navigation/drawer": "^5.12.4",
+    "@react-navigation/native": "^5.9.3",
+    "native-base": "^2.15.2",
+    "react": "^17.0.1",
+    "react-native": "^0.63.4",
+    "react-native-easy-grid": "^0.2.2",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^2.18.1",
+    "react-native-vector-icons": "^8.1.0"
+  }
+}
