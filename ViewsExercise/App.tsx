@@ -1,6 +1,8 @@
 import React from "react"
 import { Button, Platform, StyleSheet, Text, View } from "react-native"
 import BankOtkritie from './src/components/templates/BankOtkritie'
+import LoginForm from "./src/components/templates/LoginForm"
+import Messages from "./src/components/templates/Messages"
 
 export interface Props {
 
@@ -20,6 +22,8 @@ class App extends React.Component<Props, State> {
   render() {
     return (
       <BankOtkritie/>
+      //<LoginForm/>
+      //<Messages/>
     )
   }
 }
